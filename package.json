@@ -1,0 +1,42 @@
+{
+	"name": "fetch-error",
+	"version": "0.0.0",
+	"description": "An error class for use with the Fetch API.",
+	"keywords": [
+		"error",
+		"errors",
+		"exception",
+		"fetch",
+		"http"
+	],
+	"homepage": "https://github.com/moll/js-fetch-error",
+	"bugs": "https://github.com/moll/js-fetch-error/issues",
+
+	"author": {
+		"name": "Andri Möll",
+		"email": "andri@dot.ee",
+		"url": "http://themoll.com"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/moll/js-fetch-error.git"
+	},
+
+	"licenses": [{
+		"type": "LAGPL",
+		"url": "https://github.com/moll/js-fetch-error/blob/master/LICENSE"
+	}],
+
+	"main": "index.js",
+	"scripts": {"test": "make test"},
+
+	"dependencies": {
+		"standard-http-error": ">= 2.0.0 < 3"
+	},
+
+	"devDependencies": {
+		"mocha": ">= 2.1.0 < 3",
+		"must": ">= 0.13.0 < 0.14"
+	}
+}
