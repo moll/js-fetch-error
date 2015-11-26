@@ -1,6 +1,6 @@
 {
 	"name": "fetch-error",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "An error class for use with the Fetch API.",
 	"keywords": [
 		"error",
