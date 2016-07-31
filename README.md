@@ -5,8 +5,8 @@ FetchError.js
 FetchError.js is an error class for use with the [Fetch API][fetch].  
 It's based on [StandardHttpError.js][standard-http-error].
 
-[fetch]: https://developer.mozilla.org/en/docs/Web/API/Fetch_API
 [npm-badge]: https://img.shields.io/npm/v/fetch-error.svg
+[fetch]: https://developer.mozilla.org/en/docs/Web/API/Fetch_API
 [standard-http-error]: https://github.com/moll/js-standard-http-error
 
 
@@ -44,6 +44,10 @@ res.catch(function(err) {
   else throw err
 })
 ```
+
+For a library that does the above and slightly more, see [FetchThrow.js][fetch-throw].
+
+[fetch-throw]: https://github.com/moll/js-fetch-throw
 
 
 License
