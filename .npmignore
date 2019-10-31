@@ -1,1 +1,5 @@
 /*.tgz
+.npmignore
+test
+CHANGELOG.md
+Makefile
